@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Scrape Articles from the New York Times</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <button type="button" class="btn btn-primary" id="scrape">Scrape for Articles</button>
+            <button type="button" class="btn btn-primary" id="saved">Saved Articles</button>
+        </div>
+    </div>
+
+    <div class'"row">
+        <div class="col-md-12 my-5">
+            {{#if article}}
+                {{#each article}}
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{this.title}}</h5>
+                        <p class="card-text">{{this.summary}}</p>
+                        <a href="{{this.link}}" target="_blank" class="card-link">{{this.link}}</a><br>
+                        <a href="#" data-id={{this.id}} class="btn btn-primary" id="save">Save Article</a>
+                    </div>
+                </div>
+                {{/each}}
+            {{else}}
+            <div>
+                <h4>No articles have been scraped</h4>
+             </div>
+            {{/if}}
+        </div>
+    </div>
+</div>
