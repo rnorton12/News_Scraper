@@ -26,4 +26,4 @@ An app that scrapes articles from the New York Times website and lets users save
 
 ## Deployed Heroku App - [https://vast-eyrie-69033.herokuapp.com](https://vast-eyrie-69033.herokuapp.com)
 ## Git Hub Repository - [https://github.com/rnorton12/News_Scraper](https://github.com/rnorton12/News_Scraper)
-## Demo - [Demo](/gifs/Demo.gif)
+## Demo - ![Demo](/gifs/Demo.gif)
