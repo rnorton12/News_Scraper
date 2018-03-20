@@ -24,6 +24,6 @@ An app that scrapes articles from the New York Times website and lets users save
     - cheerio
     - request
 
-[Deployed App](https://vast-eyrie-69033.herokuapp.com)
-[Git Hub Repository](https://github.com/rnorton12/News_Scraper)
-[Demo](/gifs/demo.gif)
+![Deployed App](https://vast-eyrie-69033.herokuapp.com)
+![Git Hub Repository](https://github.com/rnorton12/News_Scraper)
+![Demo](/gifs/Demo.gif)
