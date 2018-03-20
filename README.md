@@ -1,2 +1,29 @@
-# News_Scraper
-In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
+# News Scraper
+
+## Overview
+An app that scrapes articles from the New York Times website and lets users save articles and leave comments on the latest news.
+
+## Capabilities
+- Scrape articles by clicking the "Scrape Articles" button.
+- Once articles are loaded, read full article by clicking the link in each article's panel and save articles by clicking the "Save Article" button.
+- Saved articles can be viewed at the "Saved Articles" page.
+- Comments can be added on saved articles by clicking the "Add a Note" button.
+- Saved articles can be deleted by clicking the "Delete" button.
+
+## Technologies Used
+- Node.js
+- Express.js
+- Handlebars.js
+- MongoDB
+- Mongoose
+- npm packages
+    - body-parser
+    - express
+    - express-handlebars
+    - mongoose
+    - cheerio
+    - request
+
+[Deployed App](https://vast-eyrie-69033.herokuapp.com)
+[Git Hub Repository](https://github.com/rnorton12/News_Scraper)
+[Demo](/gifs/demo.gif)
